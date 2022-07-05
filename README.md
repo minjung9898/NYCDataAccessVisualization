@@ -51,7 +51,9 @@ Turn the direction by 29 degrees since Manhattan's whole grid is titled 29 degre
 Recomended Tutorials:
 
 "https://www.youtube.com/watch?v=pwZpJzpE2lQ" Overall beginer level tutorial.
+
 "https://docs.unity3d.com/ScriptReference/Vector3-ctor.html" Unity's vector constructor. In Unity, y and z are opposite. Vector y stands for the vertical direction.
+
 "https://docs.unity3d.com/ScriptReference/GameObject-ctor.html" Unity's gameobject constructor.
 
 Next task: Write c# scripts to automatically read csv files of shrank coordinates and create game object with different color and shape based on the types of infrastructures.
