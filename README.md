@@ -33,14 +33,23 @@ I would rather recommend to go to the file "Manhattan_Access.qgz", select each l
 
 Recomended Tutorials:
 
+"https://www.youtube.com/watch?v=Yxkh2f-3Bj8&list=WL&index=12"
+"https://www.youtube.com/watch?v=-7v5qfJYWxA&list=LL&index=63"
+"https://www.youtube.com/watch?v=sGMTJeE1C-Y&list=LL&index=64"
 
 ### UNITY3D
 [Install UnityHub and VisualStudio]
 - https://unity3d.com/get-unity/download
 - https://visualstudio.microsoft.com/
 
+Set an arbitrary point of Lat/Long of the center of sample 2 by 2 area and get the difference of each points. Divide that by 10 or any number that would appropriate to shrink the size and render them in Unity. 
+
+Turn the direction by 29 degrees since Manhattan's whole grid is actually titled 29 degrees to the northeast. 
+
 Recomended Tutorials:
 
+"https://www.youtube.com/watch?v=pwZpJzpE2lQ" Overall beginer level tutorial.
+"https://docs.unity3d.com/ScriptReference/Vector3-ctor.html" Unity's vector constructor. In Unity, y and z are opposite. Vector y stands for the vertical direction.
+"https://docs.unity3d.com/ScriptReference/GameObject-ctor.html" Unity's gameobject constructor.
 
-
-
+Next task: Write c# scripts to automatically read csv files of shrinked coordinates and create game object with different color and shape based on the types of infrastructures.
