@@ -33,8 +33,10 @@ I would rather recommend going to the file "Manhattan_Access.qgz", select each l
 
 Recomended Tutorials:
 
-"https://www.youtube.com/watch?v=Yxkh2f-3Bj8&list=WL&index=12" /n
-"https://www.youtube.com/watch?v=-7v5qfJYWxA&list=LL&index=63" /n
+"https://www.youtube.com/watch?v=Yxkh2f-3Bj8&list=WL&index=12"
+
+"https://www.youtube.com/watch?v=-7v5qfJYWxA&list=LL&index=63"
+
 "https://www.youtube.com/watch?v=sGMTJeE1C-Y&list=LL&index=64"
 
 ### UNITY3D
