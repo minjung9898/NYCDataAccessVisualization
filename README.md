@@ -1,11 +1,11 @@
 # NYCDataAccessVisualization
 ## How GIS data turns into 3D Model using public data, NYC Open Data.
 
-Virtual Reality may enable people of low vision and/or blind people walk on New York City streets and distinguish permanent infrastructures, such as commercial front doors, stairs, door knobs, street sign orders, bus stops, benches and more.
+Virtual Reality may enable people of low vision and/or blind people walk on New York City streets and distinguish permanent infrastructures, such as commercial front doors, stairs, doorknobs, street sign orders, bus stops, benches and more.
 
 ### Data Prep
 [Permanent Infrastructure data]
-- Street Sign Orders. It explains each name of streets, warning signs, directions and dead-ends. 
+- Street Sign Orders. It explains each name of streets, warning signs, directions, and dead ends. 
 - Bus Stops
 - Benches
 - Hydrants
@@ -17,7 +17,7 @@ Virtual Reality may enable people of low vision and/or blind people walk on New 
 
 [Trimming using Python]
 - Drop out data if it is not located in Manhattan among five boroughs. Borough code for Manhattan: '1'.
-- Designate coordinate points as geometry data in order to let GIS (QGIS) read and render the data. Python moduels: Geopandas and shapley.
+- Designate coordinate points as geometry data to let GIS (QGIS) read and render the data. Python modules: Geopandas and shapley.
 - Save them as .csv or shapefile.
 - Refer to file "Manhattan_Hydrants.ipynb"
 
@@ -29,7 +29,7 @@ Virtual Reality may enable people of low vision and/or blind people walk on New 
 - Select each geometry data and draw a polygon following the base map. Save as selected area into csv files. (Hand drawing is availble in QGIS)
 - Per each layer, you can select icon color or design.
 
-I would rather recommend to go to the file "Manhattan_Access.qgz", select each layer and right click -> Export -> Save feature as -> select file type (could be anything, geojson, csv, and shapefile) -> select the location you want to save (must direct the location) -> name the file and save. The Qgis project includes all the data for Manhattan area.
+I would rather recommend going to the file "Manhattan_Access.qgz", select each layer and right click -> Export -> Save feature as -> select file type (could be anything, geojson, csv, and shapefile) -> select the location you want to save (must direct the location) -> name the file and save. The Qgis project includes all the data for Manhattan area.
 
 Recomended Tutorials:
 
@@ -42,9 +42,9 @@ Recomended Tutorials:
 - https://unity3d.com/get-unity/download
 - https://visualstudio.microsoft.com/
 
-Set an arbitrary point of Lat/Long of the center of sample 2 by 2 area and get the difference of each points. Divide that by 10 or any number that would appropriate to shrink the size and render them in Unity. 
+Set an arbitrary point of Lat/Long of the center of sample 2 by 2 area and get the difference of each point. Divide that by 10 or any number that would appropriate to shrink the size and render them in Unity. 
 
-Turn the direction by 29 degrees since Manhattan's whole grid is actually titled 29 degrees to the northeast. 
+Turn the direction by 29 degrees since Manhattan's whole grid is titled 29 degrees to the northeast. 
 
 Recomended Tutorials:
 
@@ -52,4 +52,6 @@ Recomended Tutorials:
 "https://docs.unity3d.com/ScriptReference/Vector3-ctor.html" Unity's vector constructor. In Unity, y and z are opposite. Vector y stands for the vertical direction.
 "https://docs.unity3d.com/ScriptReference/GameObject-ctor.html" Unity's gameobject constructor.
 
-Next task: Write c# scripts to automatically read csv files of shrinked coordinates and create game object with different color and shape based on the types of infrastructures.
+Next task: Write c# scripts to automatically read csv files of shrank coordinates and create game object with different color and shape based on the types of infrastructures.
+![image](https://user-images.githubusercontent.com/97256415/177247877-2eb79e8d-0c14-4cd7-963b-96b430357d80.png)
+
