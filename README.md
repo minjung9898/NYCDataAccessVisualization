@@ -53,5 +53,3 @@ Recomended Tutorials:
 "https://docs.unity3d.com/ScriptReference/GameObject-ctor.html" Unity's gameobject constructor.
 
 Next task: Write c# scripts to automatically read csv files of shrank coordinates and create game object with different color and shape based on the types of infrastructures.
-![image](https://user-images.githubusercontent.com/97256415/177247877-2eb79e8d-0c14-4cd7-963b-96b430357d80.png)
-
